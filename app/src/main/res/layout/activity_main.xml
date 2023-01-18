@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/nameTeam1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/name_team_1" />
+
+
+        <ImageButton
+            android:id="@+id/team1Increment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTeam1"
+            android:contentDescription="@string/description_minus_button"
+            android:src="@drawable/ic_minus" />
+
+        <TextView
+            android:id="@+id/team1Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTeam1"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp" />
+
+        <ImageButton
+            android:id="@+id/team1Decrement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameTeam1"
+            android:layout_alignParentEnd="true"
+            android:contentDescription="@string/description_plus_button"
+            android:src="@drawable/ic_plus" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
