@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+
+
+    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="color">@color/purple_500</item>
+    </style>
+
+
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/selector_plus</item>
+        <item name="android:contentDescription">@string/description_plus_button</item>
+    </style>
+
+
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/selector_minus</item>
+        <item name="android:contentDescription">@string/description_minus_button</item>
+    </style>
+
+
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+    </style>
+
+
+    <style name="TeamText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+
+
+</resources>
